@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIScrollView+Refresh.h"
 
 @interface ViewController : UIViewController
 

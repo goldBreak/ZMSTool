@@ -20,6 +20,9 @@
 		973D2D2D1E0BB5AE00522D4A /* UIColor+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 973D2D241E0BB5AE00522D4A /* UIColor+Wrapper.m */; };
 		973D2D2E1E0BB5AE00522D4A /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 973D2D261E0BB5AE00522D4A /* UIImage+GIF.m */; };
 		973D2D2F1E0BB5AE00522D4A /* UIImage+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 973D2D281E0BB5AE00522D4A /* UIImage+Wrapper.m */; };
+		976F8DA91E0CB917007B054F /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 976F8DA81E0CB917007B054F /* UIScrollView+Refresh.m */; };
+		976F8DAC1E0CCACC007B054F /* RefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976F8DAB1E0CCACC007B054F /* RefreshHeaderView.m */; };
+		976F8DAF1E0CCAE0007B054F /* RefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976F8DAE1E0CCAE0007B054F /* RefreshFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,12 @@
 		973D2D261E0BB5AE00522D4A /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
 		973D2D271E0BB5AE00522D4A /* UIImage+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Wrapper.h"; sourceTree = "<group>"; };
 		973D2D281E0BB5AE00522D4A /* UIImage+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Wrapper.m"; sourceTree = "<group>"; };
+		976F8DA71E0CB917007B054F /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		976F8DA81E0CB917007B054F /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		976F8DAA1E0CCACC007B054F /* RefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshHeaderView.h; sourceTree = "<group>"; };
+		976F8DAB1E0CCACC007B054F /* RefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshHeaderView.m; sourceTree = "<group>"; };
+		976F8DAD1E0CCAE0007B054F /* RefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshFooterView.h; sourceTree = "<group>"; };
+		976F8DAE1E0CCAE0007B054F /* RefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,12 @@
 				973D2D261E0BB5AE00522D4A /* UIImage+GIF.m */,
 				973D2D271E0BB5AE00522D4A /* UIImage+Wrapper.h */,
 				973D2D281E0BB5AE00522D4A /* UIImage+Wrapper.m */,
+				976F8DA71E0CB917007B054F /* UIScrollView+Refresh.h */,
+				976F8DA81E0CB917007B054F /* UIScrollView+Refresh.m */,
+				976F8DAA1E0CCACC007B054F /* RefreshHeaderView.h */,
+				976F8DAB1E0CCACC007B054F /* RefreshHeaderView.m */,
+				976F8DAD1E0CCAE0007B054F /* RefreshFooterView.h */,
+				976F8DAE1E0CCAE0007B054F /* RefreshFooterView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -193,13 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976F8DAF1E0CCAE0007B054F /* RefreshFooterView.m in Sources */,
 				973D2D2E1E0BB5AE00522D4A /* UIImage+GIF.m in Sources */,
 				973D2D2F1E0BB5AE00522D4A /* UIImage+Wrapper.m in Sources */,
 				973D2D2C1E0BB5AE00522D4A /* StringUtils.m in Sources */,
 				973D2D2A1E0BB5AE00522D4A /* FileUtils.m in Sources */,
 				973D2D291E0BB5AE00522D4A /* CacheUtils.m in Sources */,
+				976F8DAC1E0CCACC007B054F /* RefreshHeaderView.m in Sources */,
 				9737A6551E0A8981006FA557 /* ViewController.m in Sources */,
 				9737A6521E0A8981006FA557 /* AppDelegate.m in Sources */,
+				976F8DA91E0CB917007B054F /* UIScrollView+Refresh.m in Sources */,
 				973D2D2D1E0BB5AE00522D4A /* UIColor+Wrapper.m in Sources */,
 				9737A64F1E0A8981006FA557 /* main.m in Sources */,
 				973D2D2B1E0BB5AE00522D4A /* NSString+Wrapper.m in Sources */,
